@@ -11,6 +11,7 @@
     background: #343232;
     align-items: center;
     position: fixed;
+    margin-top: -80px;
 }
 .header__search input {
     width: 550px;
@@ -22,21 +23,20 @@
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
+    margin-top: 80px;
 }
 
 .films-list__item {
     overflow: hidden;
-    flex-basis: 350px;
+    flex-basis: 360px;
     max-width: 380px;
-    min-height: 160px;
     background: #343232;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 1px solid darkgrey;
     border-radius: 10px;
-    margin-top: 75px;
 }
 
 .films-list__photo {
