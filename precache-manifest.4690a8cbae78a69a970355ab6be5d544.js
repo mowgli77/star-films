@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86c3bcc787eb90bcd4cb4ad894f3feb7",
+    "revision": "4aaf650f81e5366aa1c61d6b70725d92",
     "url": "/star-films/index.html"
   },
   {
-    "revision": "09651472e3af6167e16e",
-    "url": "/star-films/static/css/main.141910c0.chunk.css"
+    "revision": "7e447ed4918f6a84a618",
+    "url": "/star-films/static/css/main.20dc33bc.chunk.css"
   },
   {
     "revision": "c2305063f95dc37fa1be",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star-films/static/js/2.b6f0e86e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "09651472e3af6167e16e",
+    "revision": "7e447ed4918f6a84a618",
     "url": "/star-films/static/js/main.9924812b.chunk.js"
   },
   {
