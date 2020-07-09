@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/star-films/static/css/main.141910c0.chunk.css",
+    "main.js": "/star-films/static/js/main.9924812b.chunk.js",
+    "main.js.map": "/star-films/static/js/main.9924812b.chunk.js.map",
+    "runtime-main.js": "/star-films/static/js/runtime-main.47f2d82b.js",
+    "runtime-main.js.map": "/star-films/static/js/runtime-main.47f2d82b.js.map",
+    "static/js/2.b6f0e86e.chunk.js": "/star-films/static/js/2.b6f0e86e.chunk.js",
+    "static/js/2.b6f0e86e.chunk.js.map": "/star-films/static/js/2.b6f0e86e.chunk.js.map",
+    "index.html": "/star-films/index.html",
+    "precache-manifest.d3a9a4ad22bbcc156d3e871240764c3b.js": "/star-films/precache-manifest.d3a9a4ad22bbcc156d3e871240764c3b.js",
+    "service-worker.js": "/star-films/service-worker.js",
+    "static/css/main.141910c0.chunk.css.map": "/star-films/static/css/main.141910c0.chunk.css.map",
+    "static/js/2.b6f0e86e.chunk.js.LICENSE.txt": "/star-films/static/js/2.b6f0e86e.chunk.js.LICENSE.txt",
+    "static/media/episode1.jpg": "/star-films/static/media/episode1.4c86c3df.jpg",
+    "static/media/episode2.jpg": "/star-films/static/media/episode2.74375f3f.jpg",
+    "static/media/episode3.jpg": "/star-films/static/media/episode3.5256d4c3.jpg",
+    "static/media/episode4.jpg": "/star-films/static/media/episode4.96290694.jpg",
+    "static/media/episode5.jpg": "/star-films/static/media/episode5.4fd8a9ff.jpg",
+    "static/media/episode6.jpg": "/star-films/static/media/episode6.eea133cb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47f2d82b.js",
+    "static/js/2.b6f0e86e.chunk.js",
+    "static/css/main.141910c0.chunk.css",
+    "static/js/main.9924812b.chunk.js"
+  ]
+}
