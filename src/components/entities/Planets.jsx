@@ -21,8 +21,9 @@ const Planets = ({film, ...props}) => {
     }
 
     return (
-            <div><span onClick={providePlanets}>Planets: </span>
-                {isPlanets && <ul>
+            <div className={"entity-item"}>
+                <span onClick={providePlanets}>Planets: </span>
+                {isPlanets && <ul className={"entity-item__list"}>
                     {props.episodePlanets.map((p) =>
                         <li><span onClick={() => viewPlanet(p.name)}>
                                     {p.name}

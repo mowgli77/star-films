@@ -1,4 +1,10 @@
 import {getFilmsAPI, getSomethingAPI} from "../API/api";
+import episode1 from "../images/episode1.jpg"
+import episode2 from "../images/episode2.jpg"
+import episode3 from "../images/episode3.jpg"
+import episode4 from "../images/episode4.jpg"
+import episode5 from "../images/episode5.jpg"
+import episode6 from "../images/episode6.jpg"
 
 const GET_FILMS = 'GET_FILMS';
 const EPISODE_PLANETS = 'EPISODE_PLANETS'
@@ -20,6 +26,12 @@ let initialState = {
     episodeStarships: [],
     episodeVehicles: [],
     episodeSpecies: [],
+    images: [{id: 1, src: episode1},
+        {id: 2, src: episode2},
+        {id: 3, src: episode3},
+        {id: 4, src: episode4},
+        {id: 5, src: episode5},
+        {id: 6, src: episode6}]
 };
 
 

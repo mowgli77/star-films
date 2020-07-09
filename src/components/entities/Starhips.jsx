@@ -21,8 +21,9 @@ const Starships = ({film, ...props}) => {
     }
 
     return (
-            <div><span onClick={provideCharacters}>Starships: </span>
-                {isStarship && <ul>
+            <div className={"entity-item"}>
+                <span onClick={provideCharacters}>Starships: </span>
+                {isStarship && <ul className={"entity-item__list"}>
                     {props.episodeStarships.map((p) =>
                         <li><span onClick={() => viewCharacter(p.name)}>
                                     {p.name}

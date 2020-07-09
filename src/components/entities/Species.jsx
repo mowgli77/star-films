@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import ItemOk from "../common/ItemOk";
 import {connect} from "react-redux";
-import {actions, getEpisodeSpeciesThunk, getEpisodeStarshipsThunk, getEpisodeVehiclesThunk} from "../../redux/reducer";
+import {actions, getEpisodeSpeciesThunk} from "../../redux/reducer";
 
 
 const Species = ({film, ...props}) => {
@@ -21,8 +21,9 @@ const Species = ({film, ...props}) => {
     }
 
     return (
-            <div><span onClick={provideCharacters}>Spacies: </span>
-                {isSpecies && <ul>
+            <div className={"entity-item"}>
+                <span onClick={provideCharacters}>Spacies: </span>
+                {isSpecies && <ul className={"entity-item__list"}>
                     {props.episodeSpecies.map((p) =>
                         <li><span onClick={() => viewCharacter(p.name)}>
                                     {p.name}

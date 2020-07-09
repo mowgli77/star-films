@@ -21,8 +21,9 @@ const Vehicles = ({film, ...props}) => {
     }
 
     return (
-            <div><span onClick={provideCharacters}>Vehicles: </span>
-                {isVehicles && <ul>
+            <div className={"entity-item"}>
+                <span onClick={provideCharacters}>Vehicles: </span>
+                {isVehicles && <ul className={"entity-item__list"}>
                     {props.episodeVehicles.map((p) =>
                         <li><span onClick={() => viewCharacter(p.name)}>
                                     {p.name}

@@ -21,8 +21,9 @@ const Characters = ({film, ...props}) => {
     }
 
     return (
-            <div><span onClick={provideCharacters}>Characters: </span>
-                {isCharacter && <ul>
+            <div className={"entity-item"}>
+                <span onClick={provideCharacters}>Characters </span>
+                {isCharacter && <ul className={"entity-item__list"}>
                     {props.episodeCharacters.map((p) =>
                         <li><span onClick={() => viewCharacter(p.name)}>
                                     {p.name}

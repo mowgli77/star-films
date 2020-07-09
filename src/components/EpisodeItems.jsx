@@ -10,10 +10,10 @@ const EpisodeItem = ({film}) => {
 
     return (
         <div className={"film-list__info"}>
-            <div>Description: {film.opening_crawl}</div>
-            <div>Director: {film.director}</div>
-            <div>Producer: {film.producer}</div>
-            <div>Release date: {film.release_date}</div>
+            <div><b>Description: </b>{film.opening_crawl}</div>
+            <div><b>Director: </b>{film.director}</div>
+            <div><b>Producer: </b>{film.producer}</div>
+            <div><b>Release date: </b>{film.release_date}</div>
             <Characters film={film}/>
             <Planets film={film}/>
             <Starships film={film}/>

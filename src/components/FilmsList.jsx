@@ -1,12 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {connect} from "react-redux";
-import {
-    actions,
-    getEpisodeCharactersThunk,
-    getEpisodePlanetsThunk,
-    getEpisodeStarshipsThunk,
-    getFilmsThunk
-} from "../redux/reducer";
+import {getFilmsThunk} from "../redux/reducer";
 import FilmItem from "./FilmItem";
 
 const FilmsList = (props) => {
@@ -49,13 +43,9 @@ const FilmsList = (props) => {
                 {currentFilms.map(f => <FilmItem key={f.episode_id}
                                                  film={f}
                                                  addInfoId={addInfoId}
-                                                 cancelPlanets={props.cancelPlanets}
-                                                 episodePlanets={props.episodePlanets}
-                                                 episodeCharacters={props.episodeCharacters}
-                                                 getEpisodePlanetsThunk={props.getEpisodePlanetsThunk}
-                                                 getEpisodeCharactersThunk={props.getEpisodeCharactersThunk}
-                                                 cancelCharacters={props.cancelCharacters}
-                                                 getFilmInfo={getFilmInfo}/>)}
+                                                 getFilmInfo={getFilmInfo}
+                                                 images={props.images}
+                />)}
             </div>
         </div>
     );
@@ -63,18 +53,10 @@ const FilmsList = (props) => {
 
 const mapStateToProps = (state) => ({
     films: state.star.films,
-    episodePlanets: state.star.episodePlanets,
-    episodeCharacters: state.star.episodeCharacters,
+    images: state.star.images
 })
 
-const cancelPlanets = actions.cancelPlanets
-const cancelCharacters = actions.cancelCharacters
 
 export default connect(mapStateToProps, {
-    getEpisodePlanetsThunk,
-    getFilmsThunk,
-    cancelPlanets,
-    getEpisodeCharactersThunk,
-    cancelCharacters,
-    getEpisodeStarshipsThunk
+    getFilmsThunk
 })(FilmsList);
